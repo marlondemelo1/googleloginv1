@@ -26,13 +26,4 @@ export const loginRouter = (app) => {
 
 	})
 
-	app.get('/api/v1/auth/google/getGoogleKeyClient', async (req, res) => {
-
-		console.log('api back')
-		console.log(process.env.REACT_APP_CLIENT_API_KEY)
-		res.status(201)
-		res.json('694897874966-7h3o2k7fa0drtm59kh74ukr3hg37f57k.apps.googleusercontent.com')
-
-	})
-
 }
