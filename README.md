@@ -1,4 +1,4 @@
-# Examplo com API Google Login
+# Exemplo com API Google Login
 
 O app possui um botão aonde é acionado o popup da API do Google Log in utilizando OAuth2
 
