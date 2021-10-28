@@ -53,6 +53,6 @@
     "gh-pages": "^3.2.3"
   },
 
-	"homepage": "https://github.com/marlondemelo1/googleloginv1.git"
+	"homepage": "./"
 
 }
