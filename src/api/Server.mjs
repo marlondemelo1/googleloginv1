@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
-app.use('/', express.static(path.join(__dirname, '/build')))
+app.use('/marlondemelo1/googleloginv1/', express.static(path.join(__dirname, '/build')))
 
 const PORT = 8080;
 
