@@ -20,7 +20,7 @@ const LoginRouter = () => {
 
 		<UserContext.Provider value={user}>
 
-			<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<BrowserRouter>
 			
 				<Switch>
 
